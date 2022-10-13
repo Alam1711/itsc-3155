@@ -1,0 +1,16 @@
+{% block content %}
+<h1>Register</h1>
+<h4>Enter Student Information below</h4>
+<!--Form to request user's name-->
+<form action="/studentDetails" method="POST">
+  <input type="text" name="number" id="number" />
+  <select class="form-control">
+    <option>Charlotte Hack</option>
+    <option>Code 9</option>
+    <option>Women who codes</option>
+    <option>Runtime Terror</option>
+    <option>FrontPage Freebirds</option>
+  </select>
+  <input type="submit" value="Submit" />
+</form>
+{% endblock %}
